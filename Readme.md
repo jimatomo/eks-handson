@@ -2,7 +2,7 @@
 
 deploy
 ```
-# Change your environment
+# Change PROJECT_HOME for your environment
 export PROJECT_HOME='/workspaces/eks_tutorial'
 echo $PROJECT_HOME
 

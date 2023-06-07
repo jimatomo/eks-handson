@@ -72,8 +72,9 @@ module "vpc_endpoints" {
 
   endpoints = {
     s3 = {
-      service = "s3"
-      tags    = { Name = "s3-vpc-endpoint" }
+      service      = "s3"
+      service_type = "Gateway"
+      tags         = { Name = "s3-vpc-endpoint" }
     },
   }
 
